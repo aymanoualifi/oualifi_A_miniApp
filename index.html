@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;800&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/main.css">
+    <title>MINI APP</title>
+</head>
+<body>
+  <h1 class="hidden">MINI Website</h1>
+    <header class="mainheader">
+      <nav id="mainnav">
+        <h2 class="hidden">Main Navigation</h2>
+        <div class="ncontent">
+          <a id="logo" href="index.html"> <img src="/images/mini_logo.svg" alt="mini logo"></a>
+          <button id="navbutton"></button>
+        </div>
+            <div id="menucontent">
+              <ul id="togglemenu">
+                    <li><a href=""> Home </a></li>
+                    <li><a href=""> Models </a></li>
+                    <li><a href=""> Contact </a></li>            
+              </ul>
+          </div>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2 id="splashpage"></h2>
+        <video
+         width="1920" height="750" loop autoplay muted  >
+          <source src="/videos/minicooper_video.mp4" type="video/mp4"></video>
+      </section>
+      <main id="app">    
+        <section class="test">
+            <h2 id="title">OUR CARS</h2>
+            <hr id="hr2"> 
+            </section>
+            <section class="locked" v-show="displayothers">
+                <h3 class="hidden">Project display</h3>
+                         <portstuff v-for="item in ProjectData" :item="item"></portstuff>
+            </section>
+          </main>
+
+        <footer>
+          <section class="footleft">
+            <div class="foottxt">
+              <h3> Check Our Socials </h3>
+            </div>
+            <div class="socials">
+              <a class="socimg" href="https://www.facebook.com/MINI.canada/">
+                <img src="images/facebook.svg" alt="Facebook logo">
+                </a>
+
+                <a class="socimg" href="https://www.instagram.com/mini/?hl=en">
+                  <img src="images/instagram.svg" alt="instagram logo">
+                  </a>
+
+                  <a  class="socimg" href="https://twitter.com/MINI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <img src="images/twitter.svg" alt="twitter logo">
+                    </a>
+            </div>
+          </section>
+          <section class="footright">
+            <div class="foottxt">
+              <h3>Connect With Mini</h3>
+            </div>
+            <div class="socials">
+              <a  class="socimg" href="https://www.mini.ca/en/about/contact">
+                <img src="images/mail.svg" alt="email">
+                </a>
+                <a  class="socimg" href="https://www.mini.ca/en/find-retailer">
+                  <img src="images/pinpoint.png" alt="find us">
+                  </a>
+              </div>
+          </section>
+        </footer>
+</body>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="js/components/menu.js" type="module" defer></script>
+<script src="js/gsap.js" > </script>
+<script src="js/main.js" type="module" defer></script>
+
+</html>
