@@ -8,7 +8,7 @@
     require_once("config.php");
 
     // return all results
-    $getContent = getAll('tbl_models');
+    $getContent = getAll('tbl_mini');
     $label = "car_name";
 
     $grpResult = "";
