@@ -5,10 +5,6 @@
 # MINI APP
 ## By 
 
-<br>
-
-This is the submission file for Brody Billings Mini App assignment
-<br>
 
 A brief summary. This is a similar build to the MINI website. This assaignment will feature many things weve learned over the semeter such as SASS, Vue, Ajax and the Fetch API.
 
