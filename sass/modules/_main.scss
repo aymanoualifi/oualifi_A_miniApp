@@ -1,0 +1,180 @@
+.minioffer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.minipromo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    max-width: 80%;
+    padding: 1em;
+}
+
+.minipromo img{
+    max-width: 100%;
+}
+
+.minipromotext{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#vueimg{
+    cursor: pointer;
+    padding: 2em;
+    max-width: 100%;
+    transition: ease-in-out 1s;
+}
+
+#vueimg:hover{
+    transform: scale(1.1);
+}
+
+#imagename{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.projinfo{
+    max-width: 300px;
+    width: 100%;
+border: solid #0a0808 2px;
+
+}
+
+.imgspread{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 20%;
+}
+
+#app{
+    background-color: rgb(255, 255, 255);
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+}
+.locked{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.test2{
+    display: flex;
+    flex-direction: column;
+}
+
+.minioffer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.minipromo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    max-width: 80%;
+    padding: 1em;
+    background-color: rgb(245, 228, 206);
+}
+
+.minipromo img{
+    max-width: 100%;
+}
+
+.minipromotext{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    text-align: left;
+    padding: 1em;
+}
+
+#lineuphead{
+    font-size: 6vw;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+#undername{
+    font-size: 2vw;
+    padding: .70em;
+    max-width: 300px;
+    overflow: none;
+}
+
+.locked{
+    width: 100%;
+    text-align: center;
+}
+
+#projectcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#miniarea{
+    padding: 0;
+    margin: 0;
+}
+
+.selector{
+    overflow: none;
+}
+
+#minioffhead{
+    font-size: 3vw;
+}
+
+#minioffpar{
+    font-size: 2vw;
+}
+
+.moremini{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(245, 228, 206);
+    padding: 2em;
+}
+
+.moremini img{
+    padding: .5em;
+    max-width: 100%;
+    transition: ease-in-out .5s;
+}
+
+#triphead{
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+     text-align: center;
+     padding: 1em;
+     font-size: 5vw;
+     font-weight: 600;
+}

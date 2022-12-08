@@ -1,0 +1,35 @@
+{
+    
+    "proj1": {
+        "car_id": "1",
+        "car_name": "MINI 5 DOOR",
+        "car_engine": "3-CYLINDER TWIN POWER TURBOCHARGED ENGINE",
+        "car_hp": "134HP",
+        "car_seats": "5 SEATS",
+        "car_rims": "16 INCH ALLOY WHEELS",
+        "car_price": "STARTING FROM $32,000",
+        "car_image": "mini_5.jpg"
+    },
+    "proj2": {
+        "car_id": "2",
+        "car_name": "ALL ELECTRIC MINI",
+        "car_engine": "ELECTRIC BATTERY",
+        "car_hp": "181HP",
+        "car_seats": "5 SEATS",
+        "car_rims": "16 INCH REVOLITE SPOKE",
+        "car_price": "STARTING FROM $45,000",
+        "car_image": "mini_elec.jpg"
+    },
+    
+    "proj3": {
+        "car_id": "3",
+        "car_name": "COUNTRYMAN ALL4",
+        "car_engine": "3-CYLINDER TWIN POWER TURBOCHARGED ENGINE",
+        "car_hp": "134HP",
+        "car_seats": "5 SEATS",
+        "car_rims": "17 INCH ALLOY WHEELS",
+        "car_price": "STARTING FROM $37,000",
+        "car_image": "mini_all4.jpg"
+    }
+ 
+}
