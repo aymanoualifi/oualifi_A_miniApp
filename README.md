@@ -3,7 +3,7 @@
 </div>
 
 # MINI APP
-## By Brody Billings
+## By 
 
 <br>
 
