@@ -1,8 +1,12 @@
 
 # MINI APP
+
 ## By Ayman oualifi
 
  This assaignment will feature : SASS, Vue, Ajax and the Fetch API.
+=======
+## 
+
 
 
 ## Installation
